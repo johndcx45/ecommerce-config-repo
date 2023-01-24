@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:35432/product?useTimezone=true&setTimezone=GMT
+    driver-class-name: org.postgresql.Driver
+    name: ecommerce
+    password: ecommerce
+    
