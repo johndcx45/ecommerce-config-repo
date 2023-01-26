@@ -6,6 +6,6 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:35432/product?useTimezone=true&setTimezone=GMT
     driver-class-name: org.postgresql.Driver
-    name: ecommerce
+    name: john@ecommerce.com
     password: ecommerce
  
