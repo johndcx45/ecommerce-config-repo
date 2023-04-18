@@ -12,3 +12,6 @@ spring:
     driver-class-name: org.postgresql.Driver
     username: john
     password: ecommerce
+
+hibernate:
+  dialect: org.hibernate.dialect.PostgreSQLDialect
