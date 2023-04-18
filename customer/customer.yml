@@ -6,6 +6,7 @@ spring:
       ddl-auto: create
       show-sql: true
       dialect: org.hibernate.dialect.PostgreSQLDialect
+      database-platform: org.hibernate.dialect.PostgreSQLDialec
   datasource:
     url: 'jdbc:postgresql://localhost:35432/customer'
     driver-class-name: org.postgresql.Driver
