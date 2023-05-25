@@ -3,7 +3,7 @@ server:
 spring:
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
       show-sql: true
       database-platform: org.hibernate.dialect.PostgreSQLDialect
       dialect: org.hibernate.dialect.PostgreSQLDialect
