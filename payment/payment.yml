@@ -8,7 +8,7 @@ spring:
       database-platform: org.hibernate.dialect.PostgreSQLDialect
       dialect: org.hibernate.dialect.PostgreSQLDialect
   datasource:
-    url: 'jdbc:postgresql://localhost:35432/payment'
+    url: 'jdbc:postgresql://localhost:35432/db_payment'
     driver-class-name: org.postgresql.Driver
     username: root
     password: root
